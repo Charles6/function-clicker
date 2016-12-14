@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  text-align: center;
+}
+#button{
+  position: absolute;
+  background-color: darkred;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  box-shadow: 5px 5px 5px grey;
+}
+#button:active{
+  top: 102px;
+  left: 102px;
+  box-shadow: 3px 3px 5px grey;
+}
+#button:hover{
+  background-color: red;
+}
+#info{
+  float: left;
+  margin-left: 300px;
+  background-color: green;
+  color: black;
+  width: 300px;
+  height: 600px;
+}
+#display{
+  display: inline-block;
+  float: none;
+  margin-top: 10px;
+  height: 1.5em;
+  width: 10em;
+}
